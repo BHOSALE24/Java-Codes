@@ -4,23 +4,10 @@ import java.util.Scanner;
 
 // Calculating the Count of Character in the string
 
-/*
-Problem Statement:
-Write a Java program that takes a single string input from the user. The string may contain a combination of alphabetic characters (A-Z or a-z), digits (0-9), and special characters (e.g., @, #, !, etc.).
-
-Your task is to:
-
-Count and display the total number of alphabetic letters in the string.
-
-Count and display the total number of digits.
-
-Count and display the total number of special characters (i.e., characters that are neither letters nor digits).
-*/
-
 public class CountingTheString {
 public static void main(String[] args) {
 	
-	
+	        // Input From user
 	        Scanner scanner = new Scanner(System.in);
 	        
 	        System.out.print("Enter a string: ");
